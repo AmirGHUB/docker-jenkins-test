@@ -1,4 +1,4 @@
-FROM openjdk:jdk-alpine
+FROM openjdk:11
 
 COPY target/take1-0.0.1-SNAPSHOT.jar /deployments/
 
